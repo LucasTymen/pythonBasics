@@ -1,4 +1,4 @@
- """5 questions - tests de recrutement avec solutions - Python.
+"""5 questions - tests de recrutement avec solutions - Python.
 Ewa Kadziolka
 Ewa Kadziolka
 Développeur full stack en alternance
