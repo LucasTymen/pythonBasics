@@ -19,7 +19,21 @@ UPDATE table SET nom_colonne_1 = 'nouvelle valeur'
 WHERE condition # Modifier un enregistrement
 DELETE FROM table WHERE condition # Supprimer un enregistrement
 
+/* syntaxe */
+SELECT nom_du_champ FROM nom_du_tableau
 
+SELECT nom_colonnes FROM nom_table WHERE condition
+SELECT * FROM client WHERE ville = 'paris'
+
+SELECT *
+FROM table
+WHERE condition
+GROUP BY expression
+HAVING condition
+{ UNION | INTERSECT | EXCEPT }
+ORDER BY expression
+LIMIT count
+OFFSET start
 /*
 Contenu du mémento SQL
 Ce mémento présente des exemples de requêtes SQL communes afin de se souvenir de la syntaxe à utiliser. Il y a également un rappel des types de données:
@@ -33,6 +47,22 @@ Fonctions mathématiques : CEIL(), FLOOR(), RAND(), TRUNCATE() …
 Fonctions de dates : CURRENT_DATE, DATE(), MAKEDATE(), MAKETIME(), NOW(), TIMEDIFF(), UNIX_TIMESTAMP(), WEEK(), YEAR() …
 Fonctions sur les chaînes de caractères : CHAR_LENGTH(), CONCAT(), LENGTH(), LOWER(), LPAD(), LTRIM(), REPLACE(), RTRIM(), SOUNDEX(), SUBSTRING(), TRIM() …
 */
+
+/*
+Opérateur	Description
+=	Égale
+<>	Pas égale
+!=	Pas égale
+>	Supérieur à
+<	Inférieur à
+>=	Supérieur ou égale à
+<=	Inférieur ou égale à
+IN	Liste de plusieurs valeurs possibles
+BETWEEN	Valeur comprise dans un intervalle donnée (utile pour les nombres ou dates)
+LIKE	Recherche en spécifiant le début, milieu ou fin d'un mot.
+IS NULL	Valeur est nulle
+IS NOT NULL	Valeur n'est pas nulle */
+
 
 /* Types de données
 Colonnes numériques */
