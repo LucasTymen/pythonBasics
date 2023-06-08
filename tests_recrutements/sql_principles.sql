@@ -1,3 +1,5 @@
+https://sql.sh/cours/where
+
 Aide mémoire SQL
 ©sql.sh
 Requêtes SQL
