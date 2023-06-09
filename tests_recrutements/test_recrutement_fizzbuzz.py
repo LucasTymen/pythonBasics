@@ -20,8 +20,8 @@ def evenNumbers(number):
 
 evenNumbers(10)
 
-"""Solution 2 - avec for loop:"""
 
+"""Solution 2 - avec for loop:"""
 
 def evenNumbers2(number):
     numbers = range(0, number+1)
@@ -31,6 +31,7 @@ def evenNumbers2(number):
         print(n, end="\t")
 
 evenNumbers2(10)
+
 
 """2) FizzBuzz c'est un exemple de l'exercice très souvent donné par les recruteurs et resemble pas mal l'exercise d'avant:
 """
@@ -47,6 +48,7 @@ def fizz_buzz(number):
             print (i,end=", ")
 
 fizz_buzz(20)
+
 
 """3) Écris une function qui va montrer si une nombre est une nombre première:
 """
@@ -65,6 +67,7 @@ def isPrimeNumber(number):
 print("7 is prime", isPrimeNumber(7))
 print("9 is prime", isPrimeNumber(9))
 
+
 """À la base de cette question il y a aussi un autre question: écris une function qui montre toutes les nombres premières jusque un nombre donnée:
 """
 
@@ -76,6 +79,7 @@ def allPrimeNumbers(num):
 
 print("prime numbers to 100")
 allPrimeNumbers(100)
+
 
 """4) Un autre question est sur palindrome, comment voir si un nombre est in palindrome:
 """
@@ -91,6 +95,7 @@ def palindrome_number (number):
 
 palindrome_number(123321)
 
+
 """5) Il y avait aussi la suite de Fibonacci et voici les solutions:
 
 Solution 1 - function récursive:
@@ -104,6 +109,7 @@ def fib_r(n):
         return fib_r(n-1)+fib_r(n-2)
 
 print(fib_r(10))
+
 
 """Solution 2 - function iterative:
 """
