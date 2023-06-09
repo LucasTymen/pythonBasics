@@ -3,6 +3,7 @@ https://sql.sh/cours/where
 Aide mémoire SQL
 ©sql.sh
 Requêtes SQL
+
 SELECT * # Sélection des colonnes
 FROM table # Nom d'une ou plusieurs tables
 WHERE condition # Obtenir les résultats selon la condition
@@ -65,7 +66,6 @@ LIKE	Recherche en spécifiant le début, milieu ou fin d'un mot.
 IS NULL	Valeur est nulle
 IS NOT NULL	Valeur n'est pas nulle */
 
-
 /* Types de données
 Colonnes numériques */
 TINYINT
@@ -111,7 +111,6 @@ VAR_POP
 VAR_SAMP
 VARIANCE */
 
-
 /* FUNCTIONS */
 /* MATHS : */
 ABS
@@ -142,7 +141,6 @@ SIN
 SQRT
 TAN
 TRUNCATE
-
 
 /* Dates et heures */
 
