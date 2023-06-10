@@ -142,6 +142,7 @@ SQRT
 TAN
 TRUNCATE
 
+
 /* Dates et heures */
 
 ADDDATE
